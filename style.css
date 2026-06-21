@@ -1,36 +1,20 @@
-p{
-   color: #A52A2A;
-   text-align: center;
-   line-height: 30px;
+*{
+    font-family: 'Courier New';
+} 
+h3{
+    color:purple;
+
 }
 h1{
-    text-align: center;
- color:red;
- font-family:Georgia;
+    color:#b92b27;
 }
-h2{
-    text-align: center;
+#login{
+    background-color:white;
 }
-h3{
-    text-align: center;
-    color:black;
+#signup{
+    background-color: #b92b27;
 }
-
-    
-
-a {
-            color: rgb(0, 128, 0); 
-            text-decoration: none; 
-        }
-        button{
-            background-color: white;
-            color:blueviolet;
-
-        }
-        textarea{
-            color:#000;
-        }
-        span{
-            text-decoration: underline;
-           
-        }
+.upvote{
+    background-color: green;
+    color: aliceblue;
+}
