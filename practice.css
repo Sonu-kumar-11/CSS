@@ -1,13 +1,28 @@
 *{
-    font-family: courier new;
+   text-align: center;
 }
-h1{
-   color: #1b74e4;
+#mainTopic {
+    color:blue;
 }
-#searchbtn{
-   background-color:black;
-   color:white;
+h1, h3, h5{
+    font-family:Georgia;
 }
-.userbtn{
-    background-color: aqua;
+.content{
+    background-color: cornflowerblue;
+    color:white;
+}
+
+div button{
+    background-color: purple;
+    color:azure;
+}
+p:nth-of-type(2n+1){
+    color : yellow;
+}
+h1::first-letter{
+    color: red;
+
+}
+#yes:checked+label{
+    color:darkgreen;
 }
